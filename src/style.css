@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 80px;
+  margin: 80px;
+}
+
+.input-group {
+  margin: 10px
+}
+
+#input-field {
+  font-size: 20px;
+}
+.submitBtn {
+  font-size: 20px;
+}
+
+.row {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.delete {
+  background: transparent;
+  border: 2px solid #0099CC;
+  border-radius: 6px;
+  height: 30px;
+  width: 60px;
+  margin: 10px;
+  padding:5px;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.delete:hover {
+     background-color: #0099CC;
+     color: white;
+}
+
+#list {
+  list-style: none;
+}
